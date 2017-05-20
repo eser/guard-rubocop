@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(/^spec\//)
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'guard',   '~> 2.0'
-  spec.add_runtime_dependency 'rubocop', '~> 0.20'
+  spec.add_runtime_dependency 'guard',   '~> 2.14.1'
+  spec.add_runtime_dependency 'rubocop', '~> 0.48.1'
 
   spec.add_development_dependency 'bundler',     '~> 1.3'
   spec.add_development_dependency 'rake',        '~> 10.0'
